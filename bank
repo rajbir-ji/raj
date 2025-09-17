@@ -1,0 +1,13 @@
+import requests
+
+def get_bank_details(ifsc_code):
+    url = f"https://ifsc.razorpay.com/{ifsc_code}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return {"error": "Invalid IFSC or API error"}
+
+# Example usage
+details = get_bank_details("HDFC0006684")
+print(details)
