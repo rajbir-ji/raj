@@ -1,18 +1,4 @@
-<<<<<<< HEAD
-#single inheritance 
-class account:
-    def __init__(self,acc_no,balance):
-        self.acc_no = acc_no
-        self.balance = balance
-def show
-        print(f"Account No: {self.acc_no}, Balance: {self.balance}")
-   def__init__(self,acc_no,balance):
-class saving_account(account):
-    def deposit(self,amount)
-=======
-# write a program to deposit amount in savings account and check balance using single inheritance
-# parent class :Account(account_no, balance)
-# child class :SavingsAccount(deposit, check_balance)
+
 class Account:
     def __init__(self, account_no, balance):
         self.account_no = account_no
@@ -33,4 +19,4 @@ class SavingsAccount(Account):
         print("Current Balance:", self.balance)
 s1 = SavingsAccount("36748718425", 1000)
 s1.display()
->>>>>>> 9d27e64965f9df267775c3ab8eedb43175241e15
+s1.deposit(500)
