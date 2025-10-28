@@ -6,11 +6,11 @@ class B(A):
     def __init__ (self):
         super().__init__()
         print("B Constructor")
-class C(A):
+class C(B):
     def __init__ (self):
         super().__init__()
         print("C Constructor")
-class D(B,C):
+class D(C,B):
     def __init__ (self):
         super().__init__()
         print("D Constructor")
