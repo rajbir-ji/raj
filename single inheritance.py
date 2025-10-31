@@ -21,3 +21,4 @@ class SavingsAccount(Account):
         print("Current Balance:", self.balance)
 s1 = SavingsAccount("36748718425", 1000)
 s1.display()
+s1.deposit(500)

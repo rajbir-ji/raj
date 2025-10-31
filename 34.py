@@ -1,4 +1,4 @@
-from mymath import factorial
+from math import factorial
 
 num = int(input("Enter a non-negative integer: "))
 
